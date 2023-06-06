@@ -2,6 +2,11 @@
 
 A node.js script that scrapes various websites to gather free coupon codes for Udemy courses
 
+```bash
+npm install -g ud-coupon
+uc
+```
+
 Scrapes coupons from:
 
 1. Udemy Freebies
