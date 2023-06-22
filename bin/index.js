@@ -104,9 +104,7 @@ class CourseScraper {
     const courses = await this.page.evaluate(() =>
       [...document.querySelectorAll(".product")].map((p) => ({
         title: p.querySelector("h2").textContent,
-        link: p.querySelector(
-          "a.button.wp-element-button.product_type_external"
-        ).href,
+        link: p.querySelector("a.button.product_type_external").href,
       }))
     );
 

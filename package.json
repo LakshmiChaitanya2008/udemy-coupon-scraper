@@ -1,11 +1,11 @@
 {
   "name": "uc",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "",
   "main": "bin/index.js",
   "type": "module",
   "bin": {
-    "uc": "./bin/index.js"
+    "ud-coupon": "./bin/index.js"
   },
   "scripts": {
     "dev": "node .",

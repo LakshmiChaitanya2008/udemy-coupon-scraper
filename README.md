@@ -4,7 +4,7 @@ A node.js script that scrapes various websites to gather free coupon codes for U
 
 ```bash
 npm install -g ud-coupon
-uc
+ud-coupon
 ```
 
 Scrapes coupons from:
